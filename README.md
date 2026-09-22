@@ -6,6 +6,11 @@ Bergamot translator provides a unified API for ([Marian NMT](https://marian-nmt.
 
 ## Build Instructions
 
+Marian and its nested dependencies are included directly in this repository.
+Their upstream revisions and local changes are recorded in
+[MARIAN_VENDORING.md](3rd_party/MARIAN_VENDORING.md). Commit changes to these
+sources in this repository. Other dependencies still use Git submodules.
+
 ### Build Natively
 Create a folder where you want to build all the artifacts (`build-native` in this case) and compile
 
